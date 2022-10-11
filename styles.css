@@ -1,0 +1,82 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bolder;
+}
+
+body {
+	background-size: 100%;
+	height: 637px;
+
+}
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 450px;
+	background: #b8b8b8;
+	padding: 25px;
+	border-radius: 15px;
+}
+
+.textarea {
+	width: 204px;
+	margin: 4px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: #000000;
+	text-align: left;
+	
+}
+
+.textarea:hover {
+	width: 204px;
+	margin: 4px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: #000000;
+	text-align: left;
+	border: 2px inset #fa9600;
+}
+
+.angka {
+	width: 100px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #ffffff;
+	color: #000000;
+	border-radius: 10px;
+}
+
+.tombolclear{
+	width: 100px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #ff0000;
+	color: #000000;
+	border-radius: 10px;
+}
+
+.tomboloperator{
+	background: #fa9600;
+	color:#000000;
+	width: 100px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	color: #000000;
+	border-radius: 10px;
+}
