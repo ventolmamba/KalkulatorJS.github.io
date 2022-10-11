@@ -68,6 +68,18 @@ body {
 	border-radius: 10px;
 }
 
+@media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
+
 .tomboloperator{
 	background: #fa9600;
 	color:#000000;
